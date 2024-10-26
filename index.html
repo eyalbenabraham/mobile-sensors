@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Sensor Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; }
+        h1 { margin: 20px; }
+        .sensor-data { margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Mobile Sensor Dashboard</h1>
+    <div id="sensor-output">
+        <div class="sensor-data" id="accelerometer-data">Accelerometer: <span>Loading...</span></div>
+        <div class="sensor-data" id="gyroscope-data">Gyroscope: <span>Loading...</span></div>
+        <div class="sensor-data" id="geolocation-data">Geolocation: <span>Loading...</span></div>
+        <div class="sensor-data" id="ambient-light-data">Ambient Light: <span>Loading...</span></div>
+    </div>
+    <script src="sensors.js"></script>
+</body>
+</html>
